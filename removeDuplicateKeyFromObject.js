@@ -35,7 +35,5 @@ for(const [key,value] of Object.entries(data)){
 for(const [key,value] of Object.entries(data2)){
     output[key]={...value,id:key};
 }
-
-
 console.log(output);
   
