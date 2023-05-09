@@ -35,6 +35,7 @@ console.log(angObj1.prototype); //{type:"blog"}
 console.log(angObj1.name); // angularfeed
 //it returns "angularfeed" because the same copy of value got copied to angObj from obj so whatever defined in obj it is same name value in angObj 
 console.log(angObj1.prototype.type); // blog
+//as  {type:"blog"} this object also got copied so angObj.prototype.type will return blog
 
 
 
