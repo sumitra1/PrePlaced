@@ -27,7 +27,7 @@ const data = {
   
   const output = {};
  
-// Combine data and data2 into the output object
+// Combining data and data2 into the output object
 
 for(const [key,value] of Object.entries(data)){
     output[key]={...value,id:key};
